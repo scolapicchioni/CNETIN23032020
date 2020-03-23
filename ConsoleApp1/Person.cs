@@ -7,23 +7,28 @@ namespace ConsoleApp1 {
         Lunedi, Martedi, Mercoledi
     }
 
-    struct Person {
+    class Person {
         public int Id;
         public string Name;
         public string Surname;
         public ItalianDays FavoriteDay;
-        public void DoSomething() {
-            //string result = "hi, my name is " + Name + " and my surname is " + Surname;
 
-            //result = string.Format("hi, my name is {0} and my surname is {1}",Name,Surname) ;
+        //Id = id;
+        //Name = name;
+        //Surname = surname;
 
-            //result = $"hi, my name is {Name} and my surname is {Surname}";
+        public Person(int id, string name, string surname) => (Id, Name, Surname) = (id, name, surname);
 
-            //Console.WriteLine("hi, my name is {0} and my surname is {1}", Name, Surname);
 
-            Console.WriteLine($"hi, my name is {Name} and my surname is {Surname}");
-            
+        //string result = "hi, my name is " + Name + " and my surname is " + Surname;
 
-        }
+        //result = string.Format("hi, my name is {0} and my surname is {1}",Name,Surname) ;
+
+        //result = $"hi, my name is {Name} and my surname is {Surname}";
+
+        //Console.WriteLine("hi, my name is {0} and my surname is {1}", Name, Surname);
+
+
+        public void DoSomething() => Console.WriteLine($"hi, my name is {Name} and my surname is {Surname}");
     }
 }
