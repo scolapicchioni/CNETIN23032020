@@ -9,7 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_03", "Lab_03\Lab_03.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_04", "Lab_04\Lab_04.csproj", "{C08064A9-5CB4-4A1E-803C-FC7E52615684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2_OO", "ConsoleApp2_OO\ConsoleApp2_OO.csproj", "{7C6D7B62-A1F8-46CA-9376-2C6B6C217400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2_OO", "ConsoleApp2_OO\ConsoleApp2_OO.csproj", "{7C6D7B62-A1F8-46CA-9376-2C6B6C217400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{5573EB4D-DF82-4A3D-B927-D8DB00F21AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneLibrary", "PhoneLibrary\PhoneLibrary.csproj", "{E15A5ECB-2669-462B-BC1F-E7850542E6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppLibrary", "WhatsAppLibrary\WhatsAppLibrary.csproj", "{626E21A9-31D3-4F74-AA09-F5F42FADFEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem", "SchoolSystem\SchoolSystem.csproj", "{C90FA11D-EE09-4C28-A89F-DDBBCC0607FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_School", "ConsoleApp_School\ConsoleApp_School.csproj", "{C0F28B26-2FDD-4248-89A6-517448884591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{7C6D7B62-A1F8-46CA-9376-2C6B6C217400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C6D7B62-A1F8-46CA-9376-2C6B6C217400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C6D7B62-A1F8-46CA-9376-2C6B6C217400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5573EB4D-DF82-4A3D-B927-D8DB00F21AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5573EB4D-DF82-4A3D-B927-D8DB00F21AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5573EB4D-DF82-4A3D-B927-D8DB00F21AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5573EB4D-DF82-4A3D-B927-D8DB00F21AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15A5ECB-2669-462B-BC1F-E7850542E6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15A5ECB-2669-462B-BC1F-E7850542E6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15A5ECB-2669-462B-BC1F-E7850542E6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15A5ECB-2669-462B-BC1F-E7850542E6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626E21A9-31D3-4F74-AA09-F5F42FADFEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626E21A9-31D3-4F74-AA09-F5F42FADFEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626E21A9-31D3-4F74-AA09-F5F42FADFEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626E21A9-31D3-4F74-AA09-F5F42FADFEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90FA11D-EE09-4C28-A89F-DDBBCC0607FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90FA11D-EE09-4C28-A89F-DDBBCC0607FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90FA11D-EE09-4C28-A89F-DDBBCC0607FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90FA11D-EE09-4C28-A89F-DDBBCC0607FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F28B26-2FDD-4248-89A6-517448884591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F28B26-2FDD-4248-89A6-517448884591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F28B26-2FDD-4248-89A6-517448884591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F28B26-2FDD-4248-89A6-517448884591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
