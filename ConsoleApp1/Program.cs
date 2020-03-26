@@ -19,14 +19,24 @@ namespace ConsoleApp1 {
 
         static void Main(string[] args) {
 
-            int[] numbers = new int[] {1,6,3,7,0,3,2,5,2,5 };
-            int[] numbers2 = new int[10] ;
+            IInterface1 c1 = new Class1();
+            c1.Bla("nn");
+            Class1 c2 = new Class1();
+            c2.Bla("aa");
+
+            c1.InterfaceMethod01();
+            c2.InterfaceMethod01();
+        }
+
+        private static void M09() {
+            int[] numbers = new int[] { 1, 6, 3, 7, 0, 3, 2, 5, 2, 5 };
+            int[] numbers2 = new int[10];
             numbers[4] = 44;
 
             int[,] matrix = new int[10, 5];
             matrix[4, 3] = 55;
 
-            int[,] m2 = new int[3,3] {
+            int[,] m2 = new int[3, 3] {
                 { 2,6,4 },
                 { 9,2,5 },
                 { 3,5,9 }
@@ -35,7 +45,7 @@ namespace ConsoleApp1 {
             int[,,] cube = new int[10, 5, 4];
 
             Person[] people = new Person[10]; //null, null, null....
-            people[0] = new Person(1,"aa","rfr");
+            people[0] = new Person(1, "aa", "rfr");
 
             //matrix.GetLength(0)
 
@@ -235,7 +245,7 @@ namespace ConsoleApp1 {
             //value types ==> struct, enum
             //reference types ==> class, arrays, delegates
 
-            int? a = 5; //inline memory
+            int a = 5; //inline memory
 
             //a = null;
 
@@ -270,7 +280,7 @@ namespace ConsoleApp1 {
 
             //string s1 = 'asdg';
 
-            string s1 = "asdg"; //
+            s1 = "asdg"; //
 
             s1 = s1 + "aa"; //asdgaa
 
@@ -311,7 +321,7 @@ namespace ConsoleApp1 {
 
             Console.WriteLine(day);
 
-            Person simo;
+            Person simo = new Person(1,"Simo","Cola");
             simo.Id = 5;
             simo.Name = "Simona";
             simo.Surname = "Colapicchioni";
